@@ -1,0 +1,17 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 M.53d
+#Current Working Directory:
+#:D   D:\Itachi\Box\uart\uart\uart
+#Date/Time:
+#:T   Wed Sep 26 20:38:17 2012
+#------------------------------
+	#Reading UART_map.ncd...
+	#Loading device for application Rf_Device from file '3s50.nph' in environment C:\Xilinx\12.1\ISE_DS\ISE.
+	#   "UART" is an NCD, version 3.2, device xc3s50, package cp132, speed -4
+	#Design creation date: 2012.09.27.01.28.24
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes

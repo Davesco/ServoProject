@@ -1,0 +1,116 @@
+V3 72
+FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/RAM/RAM_module.vhd" 2013/05/01.16:26:51 P.28xd
+EN work/ram 1367445069 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/RAM/RAM_module.vhd" \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 \
+      PB std/TEXTIO 1341906175 PB ieee/NUMERIC_BIT 1341906181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR work/ram/Behavioral 1367445070 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/RAM/RAM_module.vhd" \
+      EN work/ram 1367445069
+FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Carga.vhd" 2012/09/28.09:14:20 P.28xd
+EN work/Carga 1367445057 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Carga.vhd" \
+      PB ieee/std_logic_1164 1341906176 PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR work/Carga/Behavioral 1367445058 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Carga.vhd" \
+      EN work/Carga 1367445057
+FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/CuentaBits.vhd" 2012/09/28.09:49:48 P.28xd
+EN work/CuentaBits 1367445049 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/CuentaBits.vhd" \
+      PB ieee/std_logic_1164 1341906176 PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR work/CuentaBits/general 1367445050 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/CuentaBits.vhd" \
+      EN work/CuentaBits 1367445049
+FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Div_fre.vhd" 2012/09/27.21:38:20 P.28xd
+EN work/Div_fre 1367445061 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Div_fre.vhd" \
+      PB ieee/std_logic_1164 1341906176
+AR work/Div_fre/general 1367445062 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Div_fre.vhd" \
+      EN work/Div_fre 1367445061
+FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/maquina_estados.vhd" 2012/09/29.00:45:26 P.28xd
+EN work/Control 1367445055 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/maquina_estados.vhd" \
+      PB ieee/std_logic_1164 1341906176
+AR work/Control/general 1367445056 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/maquina_estados.vhd" \
+      EN work/Control 1367445055
+FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Mux.vhd" 2012/09/26.16:24:46 P.28xd
+EN work/Mux 1367445059 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Mux.vhd" \
+      PB ieee/std_logic_1164 1341906176
+AR work/Mux/general 1367445060 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Mux.vhd" \
+      EN work/Mux 1367445059
+FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/RX.vhd" 2012/09/29.01:24:54 P.28xd
+EN work/M_estados 1367445051 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/RX.vhd" \
+      PB ieee/std_logic_1164 1341906176
+AR work/M_estados/Behavioral 1367445052 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/RX.vhd" \
+      EN work/M_estados 1367445051
+FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/RX_module.vhd" 2012/09/29.01:22:06 P.28xd
+EN work/RX_module 1367445065 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/RX_module.vhd" \
+      PB ieee/std_logic_1164 1341906176
+AR work/RX_module/Behavioral 1367445066 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/RX_module.vhd" \
+      EN work/RX_module 1367445065 CP CuentaBits CP M_estados CP serie_paralelo
+FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/serie_paralelo.vhd" 2012/09/29.01:18:30 P.28xd
+EN work/serie_paralelo 1367445053 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/serie_paralelo.vhd" \
+      PB ieee/std_logic_1164 1341906176
+AR work/serie_paralelo/Behavioral 1367445054 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/serie_paralelo.vhd" \
+      EN work/serie_paralelo 1367445053
+FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/TX_module.vhd" 2012/09/28.10:14:22 P.28xd
+EN work/TX_module 1367445063 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/TX_module.vhd" \
+      PB ieee/std_logic_1164 1341906176
+AR work/TX_module/Behavioral 1367445064 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/TX_module.vhd" \
+      EN work/TX_module 1367445063 CP CuentaBits CP control CP Carga CP Mux
+FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART.vhd" 2013/04/27.09:06:42 P.28xd
+EN work/UART 1367445067 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART.vhd" \
+      PB ieee/std_logic_1164 1341906176
+AR work/UART/Behavioral 1367445068 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART.vhd" \
+      EN work/UART 1367445067 CP Div_fre CP TX_module CP RX_module
+FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART_RAM.vhd" 2013/05/01.16:50:30 P.28xd
+EN work/UART_RAM 1367445071 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART_RAM.vhd" \
+      PB ieee/std_logic_1164 1341906176
+AR work/UART_RAM/Behavioral 1367445072 \
+      FL "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART_RAM.vhd" \
+      EN work/UART_RAM 1367445071 CP UART CP ram
+FL "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/RAM/RAM_module.vhd" 2013/04/26.15:15:57 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/Carga.vhd" 2012/09/28.09:14:20 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/CuentaBits.vhd" 2012/09/28.09:49:48 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/Div_fre.vhd" 2012/09/27.21:38:20 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/maquina_estados.vhd" 2012/09/29.00:45:26 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/Mux.vhd" 2012/09/26.16:24:46 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/RX.vhd" 2012/09/29.01:24:54 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/RX_module.vhd" 2012/09/29.01:22:06 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/serie_paralelo.vhd" 2012/09/29.01:18:30 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/TX_module.vhd" 2012/09/28.10:14:22 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/UART.vhd" 2013/04/27.09:06:42 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/UART_RAM.vhd" 2013/04/26.15:29:50 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/UAR_RAM.vhd" 2013/04/26.15:28:36 P.28xd
+EN work/UAR_RAM 0 \
+      FL "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/UAR_RAM.vhd" \
+      PB ieee/std_logic_1164 1341906176
+AR work/UAR_RAM/Behavioral 0 \
+      FL "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/UAR_RAM.vhd" \
+      EN work/UAR_RAM 0
+FL "C:/Users/Usuario UTP/Documents/labElec2/uart/Carga.vhd" 2012/09/28.09:14:20 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/uart/CuentaBits.vhd" 2012/09/28.09:49:48 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/uart/Div_fre.vhd" 2012/09/27.21:38:20 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/uart/maquina_estados.vhd" 2012/09/29.00:45:26 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/uart/Mux.vhd" 2012/09/26.16:24:46 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/uart/RX.vhd" 2012/09/29.01:24:54 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/uart/RX_module.vhd" 2012/09/29.01:22:06 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/uart/serie_paralelo.vhd" 2012/09/29.01:18:30 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/uart/TX_module.vhd" 2012/09/28.10:14:22 P.28xd
+FL "C:/Users/Usuario UTP/Documents/labElec2/uart/UART.vhd" 2012/09/29.01:10:36 P.28xd

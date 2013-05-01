@@ -1,0 +1,7 @@
+vhdl isim_temp "Mux.vhd"
+vhdl isim_temp "maquina_estados.vhd"
+vhdl isim_temp "Div_fre.vhd"
+vhdl isim_temp "CuentaBits.vhd"
+vhdl isim_temp "Carga.vhd"
+vhdl isim_temp "TX_module.vhd"
+vhdl isim_temp "tb3_tx.vhd"

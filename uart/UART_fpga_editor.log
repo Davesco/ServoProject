@@ -1,0 +1,45 @@
+#:C9     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 M.53d
+#Current Working Directory:
+#:D   D:\Itachi\Box\uart\uart\uart
+#Date/Time:
+#:T   Wed Sep 26 20:31:04 2012
+#------------------------------
+	#Reading UART.ncd...
+	#Loading device for application Rf_Device from file '3s50.nph' in environment C:\Xilinx\12.1\ISE_DS\ISE.
+	#   "UART" is an NCD, version 3.2, device xc3s50, package cp132, speed -4
+	#Design creation date: 2012.09.27.01.28.24
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+select -k comp 'RX/Mestados/estado_FSM_FFd2'
+	#3
+unselect comp 'RX/Mestados/estado_FSM_FFd2'
+	#4
+select -k comp 'clk'
+	#5
+post attr
+	#6
+unpost comp "clk"
+	#7
+unselect comp 'clk'
+	#8
+select -k comp 'datoRx'
+	#9
+place
+	#ERROR:FPGAEditor:359 - The place command requires that the selection contains one site and one component, or one site and one hard macro or RPM.
+	#10
+place
+	#ERROR:FPGAEditor:359 - The place command requires that the selection contains one site and one component, or one site and one hard macro or RPM.
+	#11
+unselect -all
+	#12
+select -k comp 'datoRx'
+	#13
+post attr
+	#14
+unpost comp "datoRx"

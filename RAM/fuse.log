@@ -1,0 +1,24 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Usuario UTP/Documents/labElec2/RAM/tbRam_isim_beh.exe -prj C:/Users/Usuario UTP/Documents/labElec2/RAM/tbRam_beh.prj work.tbRam 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 3
+Turning on mult-threading, number of parallel sub-compilation jobs: 6 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Usuario UTP/Documents/labElec2/RAM/RAM_module.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario UTP/Documents/labElec2/RAM/tbRam.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package textio
+Compiling package numeric_bit
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity ram_example [ram_example_default]
+Compiling architecture behavior of entity tbram
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 10 VHDL Units
+Built simulation executable C:/Users/Usuario UTP/Documents/labElec2/RAM/tbRam_isim_beh.exe
+Fuse Memory Usage: 36680 KB
+Fuse CPU Usage: 654 ms

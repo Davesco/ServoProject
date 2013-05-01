@@ -1,0 +1,39 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/tb1_uart_isim_beh.exe -prj C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/tb1_uart_beh.prj work.tb1_uart 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 3
+Turning on mult-threading, number of parallel sub-compilation jobs: 6 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/serie_paralelo.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/RX.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/Mux.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/maquina_estados.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/CuentaBits.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/Carga.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/TX_module.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/RX_module.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/Div_fre.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/UART.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/tb1_uart.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture general of entity Div_fre [div_fre_default]
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture general of entity CuentaBits [cuentabits_default]
+Compiling architecture general of entity Control [control_default]
+Compiling architecture behavioral of entity Carga [carga_default]
+Compiling architecture general of entity Mux [mux_default]
+Compiling architecture behavioral of entity TX_module [tx_module_default]
+Compiling architecture behavioral of entity M_estados [m_estados_default]
+Compiling architecture behavioral of entity serie_paralelo [serie_paralelo_default]
+Compiling architecture behavioral of entity RX_module [rx_module_default]
+Compiling architecture behavioral of entity UART [uart_default]
+Compiling architecture behavior of entity tb1_uart
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 25 VHDL Units
+Built simulation executable C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/tb1_uart_isim_beh.exe
+Fuse Memory Usage: 33244 KB
+Fuse CPU Usage: 780 ms

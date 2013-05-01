@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Administrador/Desktop/Lab_electroII/uart/uart/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Administrador/Desktop/Lab_electroII/uart/uart/xst"
+elaborate
+-ifn RX.prj
+-ifmt mixed

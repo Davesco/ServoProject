@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Administrador/Desktop/Lab_electroII/uart/uart/tb4_TX_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tb4_tx" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/tb4_tx/transmite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">transmite</obj_property>
+      <obj_property name="ObjectShortName">transmite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb4_tx/dato" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dato[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dato[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb4_tx/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb4_tx/fred" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fred</obj_property>
+      <obj_property name="ObjectShortName">fred</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb4_tx/estadoa" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">estadoa[1:0]</obj_property>
+      <obj_property name="ObjectShortName">estadoa[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb4_tx/datovoy" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datovoy[3:0]</obj_property>
+      <obj_property name="ObjectShortName">datovoy[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb4_tx/sal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sal</obj_property>
+      <obj_property name="ObjectShortName">sal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb4_tx/trans" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trans</obj_property>
+      <obj_property name="ObjectShortName">trans</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb4_tx/finconta" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">finconta</obj_property>
+      <obj_property name="ObjectShortName">finconta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb4_tx/vd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vd</obj_property>
+      <obj_property name="ObjectShortName">vd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb4_tx/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

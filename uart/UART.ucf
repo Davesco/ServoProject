@@ -1,0 +1,3 @@
+NET "datoRx" LOC = "U6";
+NET "salTx"  LOC = "P9";
+NET "clk"	 LOC = "B8";

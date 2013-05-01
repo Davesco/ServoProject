@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/xst"
+elaborate
+-ifn UAR_RAM.prj
+-ifmt mixed

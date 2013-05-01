@@ -1,0 +1,785 @@
+Release 14.2 - xst P.28xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: UART_RAM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "UART_RAM.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "UART_RAM"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : UART_RAM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/CuentaBits.vhd" in Library work.
+Architecture general of Entity cuentabits is up to date.
+Compiling vhdl file "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/RX.vhd" in Library work.
+Architecture behavioral of Entity m_estados is up to date.
+Compiling vhdl file "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/serie_paralelo.vhd" in Library work.
+Architecture behavioral of Entity serie_paralelo is up to date.
+Compiling vhdl file "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/maquina_estados.vhd" in Library work.
+Architecture general of Entity control is up to date.
+Compiling vhdl file "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Carga.vhd" in Library work.
+Architecture behavioral of Entity carga is up to date.
+Compiling vhdl file "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Mux.vhd" in Library work.
+Architecture general of Entity mux is up to date.
+Compiling vhdl file "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Div_fre.vhd" in Library work.
+Architecture general of Entity div_fre is up to date.
+Compiling vhdl file "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/TX_module.vhd" in Library work.
+Architecture behavioral of Entity tx_module is up to date.
+Compiling vhdl file "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/RX_module.vhd" in Library work.
+Architecture behavioral of Entity rx_module is up to date.
+Compiling vhdl file "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART.vhd" in Library work.
+Architecture behavioral of Entity uart is up to date.
+Compiling vhdl file "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/RAM/RAM_module.vhd" in Library work.
+Architecture behavioral of Entity ram is up to date.
+Compiling vhdl file "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART_RAM.vhd" in Library work.
+Architecture behavioral of Entity uart_ram is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <UART_RAM> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <UART> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ram> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Div_fre> in library <work> (architecture <general>).
+
+Analyzing hierarchy for entity <TX_module> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RX_module> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CuentaBits> in library <work> (architecture <general>).
+
+Analyzing hierarchy for entity <Control> in library <work> (architecture <general>).
+
+Analyzing hierarchy for entity <Carga> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux> in library <work> (architecture <general>).
+
+Analyzing hierarchy for entity <M_estados> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <serie_paralelo> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <UART_RAM> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART_RAM.vhd" line 54: Unconnected output port 'freD' of component 'UART'.
+WARNING:Xst:753 - "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART_RAM.vhd" line 54: Unconnected output port 'estadoRX' of component 'UART'.
+WARNING:Xst:753 - "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART_RAM.vhd" line 54: Unconnected output port 'indexRX' of component 'UART'.
+WARNING:Xst:753 - "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART_RAM.vhd" line 54: Unconnected output port 'estadoTX' of component 'UART'.
+Entity <UART_RAM> analyzed. Unit <UART_RAM> generated.
+
+Analyzing Entity <UART> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART.vhd" line 80: Unconnected output port 'datovoy' of component 'TX_module'.
+WARNING:Xst:753 - "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART.vhd" line 80: Unconnected output port 'freD' of component 'TX_module'.
+WARNING:Xst:753 - "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART.vhd" line 80: Unconnected output port 'trans' of component 'TX_module'.
+WARNING:Xst:753 - "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART.vhd" line 80: Unconnected output port 'finConta' of component 'TX_module'.
+WARNING:Xst:753 - "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART.vhd" line 80: Unconnected output port 'vd' of component 'TX_module'.
+Entity <UART> analyzed. Unit <UART> generated.
+
+Analyzing Entity <Div_fre> in library <work> (Architecture <general>).
+Entity <Div_fre> analyzed. Unit <Div_fre> generated.
+
+Analyzing Entity <TX_module> in library <work> (Architecture <behavioral>).
+Entity <TX_module> analyzed. Unit <TX_module> generated.
+
+Analyzing Entity <CuentaBits> in library <work> (Architecture <general>).
+WARNING:Xst:819 - "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/CuentaBits.vhd" line 45: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <cont>
+Entity <CuentaBits> analyzed. Unit <CuentaBits> generated.
+
+Analyzing Entity <Control> in library <work> (Architecture <general>).
+Entity <Control> analyzed. Unit <Control> generated.
+
+Analyzing Entity <Carga> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Carga.vhd" line 20: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <data>
+Entity <Carga> analyzed. Unit <Carga> generated.
+
+Analyzing Entity <Mux> in library <work> (Architecture <general>).
+Entity <Mux> analyzed. Unit <Mux> generated.
+
+Analyzing Entity <RX_module> in library <work> (Architecture <behavioral>).
+WARNING:Xst:752 - "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/RX_module.vhd" line 57: Unconnected input port 'clkBaud' of component 'CuentaBits' is tied to default value.
+WARNING:Xst:753 - "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/RX_module.vhd" line 63: Unconnected output port 'completado' of component 'serie_paralelo'.
+Entity <RX_module> analyzed. Unit <RX_module> generated.
+
+Analyzing Entity <M_estados> in library <work> (Architecture <behavioral>).
+Entity <M_estados> analyzed. Unit <M_estados> generated.
+
+Analyzing Entity <serie_paralelo> in library <work> (Architecture <behavioral>).
+Entity <serie_paralelo> analyzed. Unit <serie_paralelo> generated.
+
+Analyzing Entity <ram> in library <work> (Architecture <behavioral>).
+INFO:Xst:1432 - Contents of array <ram> may be accessed with a negative index, causing simulation mismatch.
+INFO:Xst:1433 - Contents of array <ram> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Entity <ram> analyzed. Unit <ram> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ram>.
+    Related source file is "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/RAM/RAM_module.vhd".
+INFO:Xst:1439 - HDL ADVISOR - You may have used signed signal(s) to address this RAM. If that is the case, negative values being out of range, sign bits were ignored. As a result only the first half of the RAM is actually accessed. Please check your source code.
+    Found 256x8-bit dual-port RAM <Mram_ram> for signal <ram>.
+    Found 8-bit register for signal <data_o>.
+    Found 32-bit up counter for signal <address>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+Unit <ram> synthesized.
+
+
+Synthesizing Unit <Div_fre>.
+    Related source file is "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Div_fre.vhd".
+    Found 1-bit register for signal <clk_out>.
+    Found 18-bit up counter for signal <cont>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Div_fre> synthesized.
+
+
+Synthesizing Unit <CuentaBits>.
+    Related source file is "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/CuentaBits.vhd".
+WARNING:Xst:647 - Input <clkBaud> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <fin_contabits>.
+    Found 4-bit up counter for signal <cont>.
+    Found 4-bit comparator less for signal <fin_contabits$cmp_lt0000> created at line 52.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <CuentaBits> synthesized.
+
+
+Synthesizing Unit <Control>.
+    Related source file is "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/maquina_estados.vhd".
+WARNING:Xst:647 - Input <endRD> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found finite state machine <FSM_0> for signal <selector>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 2-bit register for signal <estado>.
+    Found 1-bit register for signal <desplaza>.
+    Found 1-bit register for signal <transmitiendo>.
+    Found 1-bit register for signal <cargadato>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   5 D-type flip-flop(s).
+Unit <Control> synthesized.
+
+
+Synthesizing Unit <Carga>.
+    Related source file is "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Carga.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <b> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <a> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:737 - Found 1-bit latch for signal <endRD>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <serie>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 4-bit latch for signal <cont>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 4-bit adder for signal <cont$add0000> created at line 49.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <Carga> synthesized.
+
+
+Synthesizing Unit <Mux>.
+    Related source file is "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/Mux.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit 4-to-1 multiplexer for signal <salida>.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Mux> synthesized.
+
+
+Synthesizing Unit <M_estados>.
+    Related source file is "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/RX.vhd".
+    Found finite state machine <FSM_1> for signal <estado>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 2-bit register for signal <salida>.
+    Found 1-bit register for signal <avisoRX>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   3 D-type flip-flop(s).
+Unit <M_estados> synthesized.
+
+
+Synthesizing Unit <serie_paralelo>.
+    Related source file is "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/serie_paralelo.vhd".
+    Found 1-bit register for signal <completado>.
+    Found 8-bit register for signal <data>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <serie_paralelo> synthesized.
+
+
+Synthesizing Unit <TX_module>.
+    Related source file is "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/TX_module.vhd".
+WARNING:Xst:646 - Signal <trasmiting> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <f> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <e> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <desplz> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <b> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <TX_module> synthesized.
+
+
+Synthesizing Unit <RX_module>.
+    Related source file is "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/RX_module.vhd".
+WARNING:Xst:1780 - Signal <e> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <dat> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <d> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <RX_module> synthesized.
+
+
+Synthesizing Unit <UART>.
+    Related source file is "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART.vhd".
+WARNING:Xst:647 - Input <transmite> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <UART> synthesized.
+
+
+Synthesizing Unit <UART_RAM>.
+    Related source file is "//psf/home/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART_RAM.vhd".
+Unit <UART_RAM> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 256x8-bit dual-port RAM                               : 1
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Counters                                             : 4
+ 18-bit up counter                                     : 1
+ 32-bit up counter                                     : 1
+ 4-bit up counter                                      : 2
+# Registers                                            : 19
+ 1-bit register                                        : 16
+ 2-bit register                                        : 2
+ 8-bit register                                        : 1
+# Latches                                              : 3
+ 1-bit latch                                           : 2
+ 4-bit latch                                           : 1
+# Comparators                                          : 2
+ 4-bit comparator less                                 : 2
+# Multiplexers                                         : 1
+ 1-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <inst_UART/RX/Mestados/estado/FSM> on signal <estado[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <inst_UART/TX/control1/selector/FSM> on signal <selector[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+
+Synthesizing (advanced) Unit <ram>.
+INFO:Xst:3226 - The RAM <Mram_ram> will be implemented as a BLOCK RAM, absorbing the following register(s): <data_o>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | read-first                          |          |
+    |     clkA           | connected to signal <Clk>           | rise     |
+    |     weA            | connected to signal <we>            | high     |
+    |     addrA          | connected to signal <address>       |          |
+    |     diA            | connected to signal <data_i>        |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <Clk>           | rise     |
+    |     enB            | connected to signal <we>            | low      |
+    |     addrB          | connected to signal <address_i>     |          |
+    |     doB            | connected to signal <data_o>        |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <ram> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# RAMs                                                 : 1
+ 256x8-bit dual-port block RAM                         : 1
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Counters                                             : 4
+ 18-bit up counter                                     : 1
+ 32-bit up counter                                     : 1
+ 4-bit up counter                                      : 2
+# Registers                                            : 20
+ Flip-Flops                                            : 20
+# Latches                                              : 3
+ 1-bit latch                                           : 2
+ 4-bit latch                                           : 1
+# Comparators                                          : 2
+ 4-bit comparator less                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <cont_0> of sequential type is unconnected in block <Carga>.
+WARNING:Xst:2677 - Node <cont_1> of sequential type is unconnected in block <Carga>.
+WARNING:Xst:2677 - Node <cont_2> of sequential type is unconnected in block <Carga>.
+WARNING:Xst:2677 - Node <cont_3> of sequential type is unconnected in block <Carga>.
+WARNING:Xst:2677 - Node <inst_ram/address_8> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_9> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_10> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_11> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_12> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_13> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_14> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_15> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_16> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_17> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_18> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_19> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_20> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_21> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_22> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_23> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_24> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_25> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_26> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_27> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_28> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_29> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_30> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_ram/address_31> of sequential type is unconnected in block <UART_RAM>.
+
+Optimizing unit <UART_RAM> ...
+
+Optimizing unit <CuentaBits> ...
+WARNING:Xst:1293 - FF/Latch <cont_3> has a constant value of 0 in block <CuentaBits>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <cont_3> has a constant value of 0 in block <CuentaBits>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <Control> ...
+
+Optimizing unit <M_estados> ...
+
+Optimizing unit <serie_paralelo> ...
+WARNING:Xst:2677 - Node <inst_UART/TX/carga1/endRD> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_UART/TX/control1/desplaza> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_UART/TX/control1/transmitiendo> of sequential type is unconnected in block <UART_RAM>.
+WARNING:Xst:2677 - Node <inst_UART/RX/SP/completado> of sequential type is unconnected in block <UART_RAM>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block UART_RAM, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 53
+ Flip-Flops                                            : 53
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : UART_RAM.ngr
+Top Level Output File Name         : UART_RAM
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 135
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 24
+#      LUT2                        : 11
+#      LUT3                        : 5
+#      LUT3_L                      : 1
+#      LUT4                        : 25
+#      MUXCY                       : 34
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 26
+# FlipFlops/Latches                : 54
+#      FD                          : 8
+#      FDCE                        : 2
+#      FDE                         : 23
+#      FDR                         : 19
+#      FDRE                        : 1
+#      LD                          : 1
+# RAMS                             : 1
+#      RAMB16_S9_S9                : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 10
+#      IBUF                        : 9
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       40  out of   4656     0%  
+ Number of Slice Flip Flops:             54  out of   9312     0%  
+ Number of 4 input LUTs:                 72  out of   9312     0%  
+ Number of IOs:                          12
+ Number of bonded IOBs:                  11  out of    232     4%  
+ Number of BRAMs:                         1  out of     20     5%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)             | Load  |
+-----------------------------------+-----------------------------------+-------+
+clk_ppal                           | BUFGP                             | 38    |
+inst_UART/TX/control1/cargadato    | NONE(inst_UART/TX/carga1/serie)   | 1     |
+inst_UART/div1/clk_out             | NONE(inst_UART/RX/contador/cont_2)| 16    |
+-----------------------------------+-----------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------------------------------------+------------------------------------------+-------+
+Control Signal                                                         | Buffer(FF name)                          | Load  |
+-----------------------------------------------------------------------+------------------------------------------+-------+
+inst_UART/RX/SP/data_0_not0001_bdd4(inst_UART/RX/SP/data_0_not000151:O)| NONE(inst_UART/RX/contador/fin_contabits)| 1     |
+inst_UART/TX/cuent1/en_inv(inst_UART/TX/cuent1/en_inv1:O)              | NONE(inst_UART/TX/cuent1/fin_contabits)  | 1     |
+-----------------------------------------------------------------------+------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.952ns (Maximum Frequency: 201.939MHz)
+   Minimum input arrival time before clock: 3.338ns
+   Maximum output required time after clock: 5.693ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_ppal'
+  Clock period: 4.952ns (frequency: 201.939MHz)
+  Total number of paths / destination ports: 591 / 76
+-------------------------------------------------------------------------
+Delay:               4.952ns (Levels of Logic = 6)
+  Source:            inst_UART/div1/cont_5 (FF)
+  Destination:       inst_UART/div1/cont_0 (FF)
+  Source Clock:      clk_ppal rising
+  Destination Clock: clk_ppal rising
+
+  Data Path: inst_UART/div1/cont_5 to inst_UART/div1/cont_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.591   0.706  inst_UART/div1/cont_5 (inst_UART/div1/cont_5)
+     LUT2:I0->O            1   0.704   0.000  inst_UART/div1/cont_cmp_eq0000_wg_lut<0> (inst_UART/div1/cont_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  inst_UART/div1/cont_cmp_eq0000_wg_cy<0> (inst_UART/div1/cont_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  inst_UART/div1/cont_cmp_eq0000_wg_cy<1> (inst_UART/div1/cont_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  inst_UART/div1/cont_cmp_eq0000_wg_cy<2> (inst_UART/div1/cont_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  inst_UART/div1/cont_cmp_eq0000_wg_cy<3> (inst_UART/div1/cont_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O          18   0.331   1.068  inst_UART/div1/cont_cmp_eq0000_wg_cy<4> (inst_UART/div1/cont_cmp_eq0000)
+     FDR:R                     0.911          inst_UART/div1/cont_0
+    ----------------------------------------
+    Total                      4.952ns (3.178ns logic, 1.774ns route)
+                                       (64.2% logic, 35.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'inst_UART/div1/clk_out'
+  Clock period: 3.406ns (frequency: 293.600MHz)
+  Total number of paths / destination ports: 42 / 16
+-------------------------------------------------------------------------
+Delay:               3.406ns (Levels of Logic = 1)
+  Source:            inst_UART/RX/contador/cont_0 (FF)
+  Destination:       inst_UART/RX/SP/data_7 (FF)
+  Source Clock:      inst_UART/div1/clk_out rising
+  Destination Clock: inst_UART/div1/clk_out rising
+
+  Data Path: inst_UART/RX/contador/cont_0 to inst_UART/RX/SP/data_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             12   0.591   1.136  inst_UART/RX/contador/cont_0 (inst_UART/RX/contador/cont_0)
+     LUT4:I0->O            1   0.704   0.420  inst_UART/RX/SP/data_7_not000111 (inst_UART/RX/SP/data_7_not0001)
+     FDE:CE                    0.555          inst_UART/RX/SP/data_7
+    ----------------------------------------
+    Total                      3.406ns (1.850ns logic, 1.556ns route)
+                                       (54.3% logic, 45.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_ppal'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              3.338ns (Levels of Logic = 2)
+  Source:            RX (PAD)
+  Destination:       inst_UART/RX/Mestados/avisoRX (FF)
+  Destination Clock: clk_ppal rising
+
+  Data Path: RX to inst_UART/RX/Mestados/avisoRX
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   1.218   1.108  RX_IBUF (RX_IBUF)
+     LUT4:I0->O            1   0.704   0.000  inst_UART/RX/Mestados/avisoRX_mux0000 (inst_UART/RX/Mestados/avisoRX_mux0000)
+     FD:D                      0.308          inst_UART/RX/Mestados/avisoRX
+    ----------------------------------------
+    Total                      3.338ns (2.230ns logic, 1.108ns route)
+                                       (66.8% logic, 33.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'inst_UART/div1/clk_out'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              2.459ns (Levels of Logic = 1)
+  Source:            RX (PAD)
+  Destination:       inst_UART/RX/SP/data_7 (FF)
+  Destination Clock: inst_UART/div1/clk_out rising
+
+  Data Path: RX to inst_UART/RX/SP/data_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   1.218   0.933  RX_IBUF (RX_IBUF)
+     FDE:D                     0.308          inst_UART/RX/SP/data_2
+    ----------------------------------------
+    Total                      2.459ns (1.526ns logic, 0.933ns route)
+                                       (62.1% logic, 37.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_ppal'
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Offset:              5.693ns (Levels of Logic = 2)
+  Source:            inst_UART/TX/control1/estado_0 (FF)
+  Destination:       TX (PAD)
+  Source Clock:      clk_ppal rising
+
+  Data Path: inst_UART/TX/control1/estado_0 to TX
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.591   0.706  inst_UART/TX/control1/estado_0 (inst_UART/TX/control1/estado_0)
+     LUT3:I0->O            1   0.704   0.420  inst_UART/TX/mux1/Mmux_salida11 (TX_OBUF)
+     OBUF:I->O                 3.272          TX_OBUF (TX)
+    ----------------------------------------
+    Total                      5.693ns (4.567ns logic, 1.126ns route)
+                                       (80.2% logic, 19.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'inst_UART/TX/control1/cargadato'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              5.527ns (Levels of Logic = 2)
+  Source:            inst_UART/TX/carga1/serie (LATCH)
+  Destination:       TX (PAD)
+  Source Clock:      inst_UART/TX/control1/cargadato falling
+
+  Data Path: inst_UART/TX/carga1/serie to TX
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.676   0.455  inst_UART/TX/carga1/serie (inst_UART/TX/carga1/serie)
+     LUT3:I2->O            1   0.704   0.420  inst_UART/TX/mux1/Mmux_salida11 (TX_OBUF)
+     OBUF:I->O                 3.272          TX_OBUF (TX)
+    ----------------------------------------
+    Total                      5.527ns (4.652ns logic, 0.875ns route)
+                                       (84.2% logic, 15.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.95 secs
+ 
+--> 
+
+Total memory usage is 212384 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   65 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

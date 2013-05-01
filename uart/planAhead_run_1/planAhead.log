@@ -1,0 +1,276 @@
+INFO: [HD-Application 1] Opened log file D:/Itachi/Box/uart/uart/uart/planAhead_run_1/planAhead.log
+INFO: [HD-Application 2] Opened journal file D:/Itachi/Box/uart/uart/uart/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+# PlanAhead v12.1
+# Build 61553 by hdbuild on Fri Apr 23 10:13:54 PDT 2010
+# Start of session at: 9/26/12 9:24:53 PM
+# Process ID: 2620
+#-----------------------------------------------------------
+source D:/Itachi/Box/uart/uart/uart/pa.fromHdl.tcl
+# create_project -name uart -dir "D:/Itachi/Box/uart/uart/uart/planAhead_run_1" -part xc3s500efg320-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property top UART $srcset
+# set_param project.paUcfFile  "UART.ucf"
+# set hdlfile [add_files [list {serie_paralelo.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RX.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Mux.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {maquina_estados.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Div_fre.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {CuentaBits.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Carga.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {TX_module.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RX_module.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {UART.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# add_files "UART.ucf" -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500efg320-4
+INFO: [HD-RTLIN 2] Parsing VHDL file "C:\Xilinx\12.1\ISE_DS\PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+INFO: [HD-RTLIN 2] Parsing package <attributes>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "C:\Xilinx\12.1\ISE_DS\PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+INFO: [HD-RTLIN 2] Parsing package <attributes>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "D:\Itachi\Box\uart\uart\uart\serie_paralelo.vhd" into library work
+INFO: [HD-RTLIN 2] Parsing entity <serie_paralelo>.
+INFO: [HD-RTLIN 2] Parsing architecture <Behavioral> of entity <serie_paralelo>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "D:\Itachi\Box\uart\uart\uart\RX.vhd" into library work
+INFO: [HD-RTLIN 2] Parsing entity <M_estados>.
+INFO: [HD-RTLIN 2] Parsing architecture <Behavioral> of entity <m_estados>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "D:\Itachi\Box\uart\uart\uart\Mux.vhd" into library work
+INFO: [HD-RTLIN 2] Parsing entity <Mux>.
+INFO: [HD-RTLIN 2] Parsing architecture <general> of entity <mux>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "D:\Itachi\Box\uart\uart\uart\maquina_estados.vhd" into library work
+INFO: [HD-RTLIN 2] Parsing entity <Control>.
+INFO: [HD-RTLIN 2] Parsing architecture <general> of entity <control>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "D:\Itachi\Box\uart\uart\uart\Div_fre.vhd" into library work
+INFO: [HD-RTLIN 2] Parsing entity <Div_fre>.
+INFO: [HD-RTLIN 2] Parsing architecture <general> of entity <div_fre>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "D:\Itachi\Box\uart\uart\uart\CuentaBits.vhd" into library work
+INFO: [HD-RTLIN 2] Parsing entity <CuentaBits>.
+INFO: [HD-RTLIN 2] Parsing architecture <general> of entity <cuentabits>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "D:\Itachi\Box\uart\uart\uart\Carga.vhd" into library work
+INFO: [HD-RTLIN 2] Parsing entity <Carga>.
+INFO: [HD-RTLIN 2] Parsing architecture <Behavioral> of entity <carga>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "D:\Itachi\Box\uart\uart\uart\TX_module.vhd" into library work
+INFO: [HD-RTLIN 2] Parsing entity <TX_module>.
+INFO: [HD-RTLIN 2] Parsing architecture <Behavioral> of entity <tx_module>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "D:\Itachi\Box\uart\uart\uart\RX_module.vhd" into library work
+INFO: [HD-RTLIN 2] Parsing entity <RX_module>.
+INFO: [HD-RTLIN 2] Parsing architecture <Behavioral> of entity <rx_module>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "D:\Itachi\Box\uart\uart\uart\UART.vhd" into library work
+INFO: [HD-RTLIN 2] Parsing entity <UART>.
+INFO: [HD-RTLIN 2] Parsing architecture <Behavioral> of entity <uart>.
+INFO: [HD-RTLIN 2] Elaborating entity <UART> (architecture <Behavioral>) from library <work>.
+INFO: [HD-RTLIN 2] Elaborating entity <Div_fre> (architecture <general>) from library <work>.
+INFO: [HD-RTLIN 2] Elaborating entity <TX_module> (architecture <Behavioral>) from library <work>.
+INFO: [HD-RTLIN 2] Elaborating entity <CuentaBits> (architecture <general>) from library <work>.
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\CuentaBits.vhd(56) cont should be on the sensitivity list of the process
+INFO: [HD-RTLIN 2] Elaborating entity <Control> (architecture <general>) from library <work>.
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\maquina_estados.vhd(43) selector should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\maquina_estados.vhd(47) selector should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\maquina_estados.vhd(52) selector should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\maquina_estados.vhd(56) selector should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\maquina_estados.vhd(61) selector should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\maquina_estados.vhd(65) selector should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\maquina_estados.vhd(70) selector should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\maquina_estados.vhd(74) selector should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\maquina_estados.vhd(81) selector should be on the sensitivity list of the process
+INFO: [HD-RTLIN 2] Elaborating entity <Carga> (architecture <Behavioral>) from library <work>.
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\Carga.vhd(26) data should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\Carga.vhd(28) data should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\Carga.vhd(30) data should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\Carga.vhd(32) data should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\Carga.vhd(34) data should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\Carga.vhd(36) data should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\Carga.vhd(38) data should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\Carga.vhd(40) data should be on the sensitivity list of the process
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\Carga.vhd(46) cont should be on the sensitivity list of the process
+INFO: [HD-RTLIN 2] Elaborating entity <Mux> (architecture <general>) from library <work>.
+INFO: [HD-RTLIN 2] Elaborating entity <RX_module> (architecture <Behavioral>) from library <work>.
+INFO: [HD-RTLIN 2] Elaborating entity <M_estados> (architecture <Behavioral>) from library <work>.
+WARN: [HD-RTLIN 1] D:\Itachi\Box\uart\uart\uart\RX.vhd(38) estado should be on the sensitivity list of the process
+INFO: [HD-RTLIN 2] Elaborating entity <serie_paralelo> (architecture <Behavioral>) from library <work>.
+INFO: [HD-ArchReader 18] Reading macro library C:/Xilinx/12.1/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+INFO: [HD-EDIFIN 0] Parsing Edif File 'C:/Xilinx/12.1/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File 'C:/Xilinx/12.1/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn'
+INFO: [HD-ArchReader 7] Loading clock regions from C:/Xilinx/12.1/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+INFO: [HD-ArchReader 8] Loading clock buffers from C:/Xilinx/12.1/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+INFO: [HD-ArchReader 3] Loading package from C:/Xilinx/12.1/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+INFO: [HD-ArchReader 4] Loading io standards from C:/Xilinx/12.1/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [HD-ArchReader 5] Loading pkg sso from C:/Xilinx/12.1/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+INFO: [HD-GDRC 0] Loading list of drcs for the architecture : C:/Xilinx/12.1/ISE_DS/PlanAhead/./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [HD-UCFReader 0] Parsing UCF File : .\UART.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : .\UART.ucf
+
+DESIGN RULE CHECK VIOLATION REPORT
+   Build: PlanAhead v12.1 by hdbuild
+          on  Fri Apr 23 10:13:54 PDT 2010
+  Report: by ASUS on host ITACHI-PC, pid 2620
+          on Wed Sep 26 21:25:02 2012
+
+REPORT SUMMARY
+            Netlist: UART
+          Floorplan: <none>
+      Design limits: <entire design considered>
+             Checks: Mismatching Block
+                     Mismatching Pin
+                     Mismatching Attribute
+           Max vios: <unlimited>
+         Vios found: 26
+
+REPORT DETAILS
+ULMN#1
+Mismatching Block - <no location>
+RTL_GND No block of type RTL_GND exists in the Unisim library
+Related Vios: <none>
+
+ULMN#2
+Mismatching Block - <no location>
+RTL_PWR No block of type RTL_PWR exists in the Unisim library
+Related Vios: <none>
+
+ULMN#3
+Mismatching Block - <no location>
+RTL_FDRSE No block of type RTL_FDRSE exists in the Unisim library
+Related Vios: <none>
+
+ULMN#4
+Mismatching Block - <no location>
+RTL_equal_18 No block of type RTL_equal_18 exists in the Unisim library
+Related Vios: <none>
+
+ULMN#5
+Mismatching Block - <no location>
+RTL_add_18u_18u No block of type RTL_add_18u_18u exists in the Unisim library
+Related Vios: <none>
+
+ULMN#6
+Mismatching Block - <no location>
+RTL_mux_18 No block of type RTL_mux_18 exists in the Unisim library
+Related Vios: <none>
+
+ULMN#7
+Mismatching Block - <no location>
+RTL_wide_fdrse_18 No block of type RTL_wide_fdrse_18 exists in the Unisim library
+Related Vios: <none>
+
+ULMN#8
+Mismatching Block - <no location>
+RTL_INV No block of type RTL_INV exists in the Unisim library
+Related Vios: <none>
+
+ULMN#9
+Mismatching Block - <no location>
+RTL_AND No block of type RTL_AND exists in the Unisim library
+Related Vios: <none>
+
+ULMN#10
+Mismatching Block - <no location>
+RTL_FDCPE No block of type RTL_FDCPE exists in the Unisim library
+Related Vios: <none>
+
+ULMN#11
+Mismatching Block - <no location>
+RTL_wide_fdrse_4 No block of type RTL_wide_fdrse_4 exists in the Unisim library
+Related Vios: <none>
+
+ULMN#12
+Mismatching Block - <no location>
+RTL_equal_4 No block of type RTL_equal_4 exists in the Unisim library
+Related Vios: <none>
+
+ULMN#13
+Mismatching Block - <no location>
+RTL_LessThan_4u_4u No block of type RTL_LessThan_4u_4u exists in the Unisim library
+Related Vios: <none>
+
+ULMN#14
+Mismatching Block - <no location>
+RTL_add_4u_4u No block of type RTL_add_4u_4u exists in the Unisim library
+Related Vios: <none>
+
+ULMN#15
+Mismatching Block - <no location>
+RTL_MUX No block of type RTL_MUX exists in the Unisim library
+Related Vios: <none>
+
+ULMN#16
+Mismatching Block - <no location>
+RTL_mux_4 No block of type RTL_mux_4 exists in the Unisim library
+Related Vios: <none>
+
+ULMN#17
+Mismatching Block - <no location>
+RTL_equal_2 No block of type RTL_equal_2 exists in the Unisim library
+Related Vios: <none>
+
+ULMN#18
+Mismatching Block - <no location>
+RTL_OR No block of type RTL_OR exists in the Unisim library
+Related Vios: <none>
+
+ULMN#19
+Mismatching Block - <no location>
+RTL_X No block of type RTL_X exists in the Unisim library
+Related Vios: <none>
+
+ULMN#20
+Mismatching Block - <no location>
+RTL_DLATCHRS No block of type RTL_DLATCHRS exists in the Unisim library
+Related Vios: <none>
+
+ULMN#21
+Mismatching Block - <no location>
+RTL_Mux_4u_16u No block of type RTL_Mux_4u_16u exists in the Unisim library
+Related Vios: <none>
+
+ULMN#22
+Mismatching Block - <no location>
+RTL_wide_fdrse_2 No block of type RTL_wide_fdrse_2 exists in the Unisim library
+Related Vios: <none>
+
+ULMN#23
+Mismatching Block - <no location>
+RTL_mux_2 No block of type RTL_mux_2 exists in the Unisim library
+Related Vios: <none>
+
+ULMN#24
+Mismatching Block - <no location>
+RTL_not_equal_2 No block of type RTL_not_equal_2 exists in the Unisim library
+Related Vios: <none>
+
+ULMN#25
+Mismatching Block - <no location>
+RTL_mux_8 No block of type RTL_mux_8 exists in the Unisim library
+Related Vios: <none>
+
+ULMN#26
+Mismatching Block - <no location>
+RTL_wide_dffrs_8 No block of type RTL_wide_dffrs_8 exists in the Unisim library
+Related Vios: <none>
+
+INFO: [HD-LIB 0] Reading timing library C:/Xilinx/12.1/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib .
+INFO: [HD-LIB 1] Done reading timing library C:/Xilinx/12.1/ISE_DS/PlanAhead/parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib .
+elab_constrs_1
+#-----------------------------------------------------------
+# End of session at: 9/26/12 9:26:29 PM
+# Process ID: 2620
+#-----------------------------------------------------------

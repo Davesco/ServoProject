@@ -1,0 +1,5 @@
+vhdl isim_temp "serie_paralelo.vhd"
+vhdl isim_temp "RX.vhd"
+vhdl isim_temp "CuentaBits.vhd"
+vhdl isim_temp "RX_module.vhd"
+vhdl isim_temp "Tb1_Rx.vhd"

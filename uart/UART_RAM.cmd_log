@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "Z:/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART_RAM.xst" -ofn "Z:/Documents/UTP/Semestre 7/Electronica/Proyecto3/uart/UART_RAM.syr" 

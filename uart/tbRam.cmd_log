@@ -1,0 +1,1 @@
+vhdtdtfi -prj uart -o "C:/Users/Usuario UTP/Documents/labElec2/Proyecto3/uart/tbRam.vhi" -module tbRam -template C:/Xilinx/14.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../RAM/RAM_module.vhd -lib work ../RAM/tbRam.vhd 

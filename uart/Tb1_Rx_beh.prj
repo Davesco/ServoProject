@@ -1,0 +1,5 @@
+vhdl work "serie_paralelo.vhd"
+vhdl work "RX.vhd"
+vhdl work "CuentaBits.vhd"
+vhdl work "RX_module.vhd"
+vhdl work "Tb1_Rx.vhd"

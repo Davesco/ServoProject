@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Usuario UTP/Documents/labElec2/RAM/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Usuario UTP/Documents/labElec2/RAM/xst"
+elaborate
+-ifn ram_example.prj
+-ifmt mixed
